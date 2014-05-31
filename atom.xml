@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
-  <link href="http://yoursite.com/atom.xml" rel="self"/>
-  <link href="http://yoursite.com/"/>
-  <updated>2014-05-31T17:17:41+05:30</updated>
-  <id>http://yoursite.com/</id>
+  <title><![CDATA[PES OpenSource | Opening Doors to Knowledge]]></title>
+  <link href="http://pesos.github.io/atom.xml" rel="self"/>
+  <link href="http://pesos.github.io/"/>
+  <updated>2014-05-31T18:56:34+05:30</updated>
+  <id>http://pesos.github.io/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[PES OpenSource]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
