@@ -1,0 +1,19 @@
+<script src="{{ root_url }}/javascripts/bootstrap.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+    $('.dropdown-toggle').dropdown();
+</script>
+<script type="text/javascript">
+$(document).ready(function() {
+    $("#header").headroom({
+        "tolerance": 1,
+        "offset": 50,
+        "classes": {
+            "initial": "headroom",
+            "pinned": "headroom--pinned",
+            "unpinned": "headroom--unpinned",
+            "top": "headroom--top",
+            "notTop": "headroom--not-top"
+        }
+    });
+});
+</script>
