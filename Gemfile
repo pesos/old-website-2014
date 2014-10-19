@@ -16,6 +16,7 @@ group :development do
   gem 'liquid', '~> 2.3.0'
   gem 'directory_watcher', '1.4.1'
   gem 'bootstrap-sass', '~> 3.1.1'
+  gem 'rb-inotify', '~> 0.9'
 end
 
 gem 'sinatra', '~> 1.4.2'

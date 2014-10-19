@@ -1,0 +1,14 @@
+{% capture root_url %}{{ site.root | strip_slash }}{% endcapture %}
+{% include whitespace/head.html %}
+<body {% if page.body_id %} id="{{ page.body_id }}" {% endif %} {% if page.sidebar == false %} class="no-sidebar" {% endif %} class="collapse-sidebar sidebar-footer" >
+  <header role="banner">{% include whitespace/header.html %}</header>
+  <nav role="navigation">{% include whitespace/navigation.html %}</nav>
+  <div id="main">
+    <div id="content">
+      {{ content | expand_urls: root_url }}
+    </div>
+  </div>
+  <footer role="contentinfo">{% include whitespace/footer.html %}</footer>
+  {% include whitespace/after_footer.html %}
+</body>
+</html>
