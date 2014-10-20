@@ -1,4 +1,3 @@
-@import url("http://fonts.googleapis.com/css?family=Lato:400,700,900,400italic");
 @font-face {
   font-family: "Flat-UI-Icons-16";
   src: url("../fonts/Flat-UI-Icons-16.eot");
@@ -26,6 +25,8 @@
   font-weight: normal;
   line-height: 1;
   -webkit-font-smoothing: antialiased; }
+
+$font_family: "Source Sans Pro", Arial, sans-serif;
 
 .fui-volume-16:before {
   content: "\e000"; }
@@ -179,7 +180,7 @@
 body {
   color: $text-color;
   background: $bg-color;
-  font: 18px/1.831 "Open Sans", sans-serif; }
+  font: "Source Sans Pro", Arial, sans-serif; }
 
 p {
   font-weight: 300; }
@@ -200,7 +201,7 @@ h1 {
   color: $primary-color;
   font-size: 32px;
   font-weight: 900; 
-  font-family: "Quicksand"; }
+  font-family: $font_family; }
   .date-time{
     font-size: 15px;
     color: $accent-color2;
@@ -215,14 +216,14 @@ h2 {
   color: $primary-color;
   font-size: 26px;
   font-weight: 500;
-  font-family: "Quicksand";
+  font-family: $font_family;
   margin-bottom: 2px; }
 
 h3 {
   color: $accent-color2;
   font-size: 24px;
   font-weight: 500;
-  font-family: "Quicksand";
+  font-family: $font_family;
   margin-bottom: 4px;
   margin-top: 2px; }
   .tagline
@@ -234,7 +235,7 @@ h4 {
   color: $accent-color2;
   font-size: 18px;
   font-weight: 500;
-  font-family: "Quicksand";
+  font-family: $font_family;
   line-height: 18px;
   margin-top: 4px; }
 
@@ -242,7 +243,7 @@ h5 {
   color: $accent-color2;
   font-size: 16px;
   font-weight: 500;
-  font-family: "Quicksand";
+  font-family: $font_family;
   text-transform: none; }
   .date{
     margin-top: 26px;
@@ -252,7 +253,7 @@ h6 {
   color: $accent-color2;
   font-size: 13px;
   font-weight: 500;
-  font-family: "Quicksand";
+  font-family: $font_family;
   text-transform: none; }
 
 .btn {
@@ -544,139 +545,6 @@ h6 {
 
   .demo-browser {
     background-image: url("../images/demo/browser-2x.png"); } }
-.navbar {
-  font-size: 18px; }
-  .navbar .brand {
-    color: $tertiary-color;
-    font-size: inherit;
-    font-weight: 700;
-    padding-bottom: 16px;
-    padding-top: 15px; }
-  .navbar .nav > li:hover > ul {
-    top: 100%; }
-  .navbar .nav > li > ul {
-    padding-top: 13px;
-    top: 80%;
-    background-color: white\9; }
-    .navbar .nav > li > ul:before {
-      content: "";
-      border-style: solid;
-      border-width: 0 9px 9px 9px;
-      border-color: transparent transparent $bg-color transparent;
-      height: 0px;
-      position: absolute;
-      left: 15px;
-      top: 5px;
-      width: 0px;
-      -webkit-transform: rotate(360deg); }
-    .navbar .nav > li > ul li:hover ul {
-      opacity: 1;
-      -webkit-transform: scale(1, 1);
-      visibility: visible;
-      display: block\9; }
-    .navbar .nav > li > ul li ul {
-      left: 100%; }
-  .navbar .nav > li > a {
-    padding: 15px 15px 17px; 
-    margin-top: 4px; 
-    border-radius: 5px;
-    -moz-border-radius: 5px; }
-    .navbar .nav > li > a:hover {
-      color: $tertiary-color; }
-  .navbar .nav li {
-    position: relative; }
-    .navbar .nav li:hover > ul {
-      opacity: 1;
-      z-index: 100;
-      -webkit-transform: scale(1, 1);
-      visibility: visible;
-      display: block\9; }
-  .navbar .nav ul {
-    border-radius: 4px;
-    left: 15px;
-    list-style-type: none;
-    margin-left: 0;
-    opacity: 0;
-    position: absolute;
-    top: 0;
-    width: 234px;
-    z-index: -100;
-    -webkit-transform: scale(1, 0.99);
-    -webkit-transform-origin: 0 0;
-    visibility: hidden;
-    display: none\9;
-    -webkit-transition: 0.3s ease-out;
-    -moz-transition: 0.3s ease-out;
-    -o-transition: 0.3s ease-out;
-    transition: 0.3s ease-out;
-    -webkit-backface-visibility: hidden; }
-    .navbar .nav ul ul {
-      left: 95%;
-      padding-left: 5px; }
-    .navbar .nav ul li {
-      background-color: $bg-color;
-      padding: 0 3px 3px; }
-      .navbar .nav ul li:first-child {
-        border-radius: 4px 4px 0 0;
-        padding-top: 3px; }
-      .navbar .nav ul li:last-child {
-        border-radius: 0 0 4px 4px; }
-      .navbar .nav ul li.active > a, .navbar .nav ul li.active > a:hover {
-        background-color: $tertiary-color;
-        color: white; }
-    .navbar .nav ul a {
-      border-radius: 2px;
-      color: white;
-      display: block;
-      font-size: 14px;
-      padding: 6px 9px;
-      text-decoration: none; }
-      .navbar .nav ul a:hover {
-        background-color: $tertiary-color; }
-
-.navbar-inner {
-  border: none;
-  padding-left: 4px;
-  padding-right: 4px;
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
-  border-radius: 6px;
-  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false); }
-
-.navbar-inverse .navbar-inner {
-  background: $navbar-color;
-  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false); }
-.navbar-inverse .nav > li > a {
-  color: $accent-color3; 
-  font-weight: 300; }
-.navbar-inverse .nav .active > a, .navbar-inverse .nav .active > a:hover, .navbar-inverse .nav .active > a:focus {
-  background-color: transparent;
-  color: $tertiary-color;
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
-  box-shadow: none; }
-
-.navbar-inverse .nav .active > a:hover {
-    background-color: $accent-color1; }
-
-.navbar-unread {
-  background-color: #e74c3c;
-  border-radius: 30px;
-  color: white;
-  display: none;
-  font-size: 12px;
-  font-weight: 500;
-  line-height: 18px;
-  min-width: 8px;
-  padding: 0 5px;
-  position: absolute;
-  right: -7px;
-  text-align: center;
-  text-shadow: none;
-  top: 8px;
-  z-index: 10; }
-  .active .navbar-unread {
-    display: block; }
 
 .dk_container {
   cursor: pointer;
@@ -849,7 +717,7 @@ input[type="color"],
 .uneditable-input {
   border: 2px solid #dce4ec;
   color: $bg-color;
-  font-family: "Lato", sans-serif;
+  font-family: $font_family;
   font-size: 14px;
   padding: 8px 0 9px 10px;
   text-indent: 1px;
@@ -1311,7 +1179,7 @@ textarea,
     background: transparent;
     border: none;
     color: $bg-color;
-    font-family: "Lato", sans-serif;
+    font-family: $font_family;
     font-size: 14px;
     margin: 0px;
     padding: 0 0 0 5px;
@@ -1983,7 +1851,7 @@ body.vjs-full-window {
   bottom: 4em;
   left: 1em;
   right: 1em;
-  font-family: "Lato", sans-serif; }
+  font-family: $font_family; }
 .video-js .vjs-text-track {
   display: none;
   color: white;
@@ -2579,7 +2447,7 @@ body.vjs-full-window {
 .jumbotron {
   font-size: 60px;
   line-height: 70px;
-  font-family: "Quicksand";
+  font-family: $font_family;
   position: relative;
   padding: 70px 0;
   color: $primary-color; }
