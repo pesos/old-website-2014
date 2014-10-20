@@ -7,6 +7,9 @@ single: true
 <article class="hentry" role="article">
   {% include octoflat/article.html %}
   <footer>
+    <p class="meta text-muted">
+      {% include octoflat/post/author.html %}
+    </p>
     <hr>
     {% if page.category or page.categories or page.sharing != false %}
     <div class="row-fluid">

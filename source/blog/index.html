@@ -6,7 +6,7 @@ layout: octoflatdefault
   {% for post in paginator.posts %}
   {% assign content = post.content %}
     <article>
-      {% include article.html %}
+      {% include octoflat/article.html %}
     </article>
     {% unless post == paginator.posts.last %}
     <hr>

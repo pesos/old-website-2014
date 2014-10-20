@@ -5,9 +5,9 @@ layout: octoflatdefault
 <article role="article">
   {% if page.title %}
   <header>
-    <div class="jumbotron">
+    <h1>
       {% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}
-    </div>
+    </h1>
     {% if page.date %}<p class="meta">{% include octoflat/post/date.html %}{{ time }}</p>{% endif %}
   </header>
   {% endif %}
