@@ -1,0 +1,15 @@
+{% capture root_url %}{{ site.root | strip_slash }}{% endcapture %}
+{% include octoflat/head.html %}
+<body {% if page.body_id %} id="{{ page.body_id }}" {% endif %} {% if page.sidebar == false %} class="no-sidebar" {% endif %} {% if page.sidebar == 'collapse' or site.sidebar == 'collapse' %} class="collapse-sidebar sidebar-footer" {% endif %}>
+  {% include navbar.html %}
+  <div class="container" id="main" style="padding-top: 80px;">
+    <div class="row-fluid">
+      <div id="content">
+        {{ content | expand_urls: root_url }}
+      </div>
+    </div>
+  </div>
+  {% include scripts.html %}
+  {% include footer.html %}
+</body>
+</html>
