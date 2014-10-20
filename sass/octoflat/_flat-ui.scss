@@ -26,7 +26,7 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased; }
 
-$font_family: "Source Sans Pro", Arial, sans-serif;
+$font_family: "Source Sans Pro", Arial, sans-serif !important;
 
 .fui-volume-16:before {
   content: "\e000"; }
