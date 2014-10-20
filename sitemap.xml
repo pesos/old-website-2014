@@ -2,7 +2,7 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
         <loc>http://pesos.github.io/blog/hello-world/</loc>
-        <lastmod>2014-10-20T13:11:12+05:30</lastmod>
+        <lastmod>2014-10-20T16:31:18+05:30</lastmod>
     </url>
     <url>
         <loc>http://pesos.github.io/assets/bootstrap/docs/customize.html</loc>
@@ -10,7 +10,7 @@
     </url>
     <url>
         <loc>http://pesos.github.io/assets/bootstrap/docs/</loc>
-        <lastmod>2014-10-20T13:11:12+05:30</lastmod>
+        <lastmod>2014-10-20T16:31:18+05:30</lastmod>
     </url>
     <url>
         <loc>http://pesos.github.io/assets/bootstrap/docs/components.html</loc>
@@ -38,7 +38,7 @@
     </url>
     <url>
         <loc>http://pesos.github.io/</loc>
-        <lastmod>2014-10-20T13:11:12+05:30</lastmod>
+        <lastmod>2014-10-20T16:31:18+05:30</lastmod>
     </url>
     <url>
         <loc>http://pesos.github.io/robots.txt</loc>
@@ -46,14 +46,14 @@
     </url>
     <url>
         <loc>http://pesos.github.io/blog/</loc>
-        <lastmod>2014-10-20T13:11:12+05:30</lastmod>
+        <lastmod>2014-10-20T16:31:18+05:30</lastmod>
     </url>
     <url>
         <loc>http://pesos.github.io/blog/archives/</loc>
-        <lastmod>2014-10-20T13:11:12+05:30</lastmod>
+        <lastmod>2014-10-20T16:31:18+05:30</lastmod>
     </url>
     <url>
         <loc>http://pesos.github.io/forums/</loc>
-        <lastmod>2014-10-20T13:11:12+05:30</lastmod>
+        <lastmod>2014-10-20T16:31:18+05:30</lastmod>
     </url>
 </urlset>
