@@ -34,11 +34,13 @@ In the afternoon session, the participants got to work on a Tweet corpus to mast
 Here are some **resources** shared by the speakers -
 
 **Django:**
+
 + http://www.tangowithdjango.com/book/
 + http://effectivedjango.com/tutorial/
 + http://gettingstartedwithdjango.com/
 
 **Redis:**
+
 + https://www.digitalocean.com/community/tutorials/how-to-install-and-use-redis
 + http://redis.io/topics/data-types-intro
 + http://try.redis.io/
