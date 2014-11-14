@@ -1,15 +1,21 @@
 ---
 layout: octoflatpost
-title: "PyCampus Day 2"
-date: 2014-11-10 15-42-12 +0530
+title: PyCampus Day 2
+date: "2014-11-10 15-42-12 +0530"
 comments: true
-categories: ["python", "pycampus", "workshop", "event"]
-published: false
+categories: 
+  - python
+  - pycampus
+  - workshop
+  - event
+published: true
 ---
 
 **PyCampus** is an annual event series organized in PES University by PES OpenSource, in order to introduce engineering students to programming and Python. The events are mostly hands on, with exercises intended to both spark an interest in programming as well as introduce concepts that are unique to Python.
 
 This is a report of Day 2 a session concentrating on Web Programming in Python with Django. The event was held on 2nd November 2014 at PES University.
+
+<!-- more -->
 
 <br/>
 ### About the speakers
