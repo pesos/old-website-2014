@@ -2,10 +2,11 @@
 layout: default
 navbar: Blog
 single: true
+sublayout: post
 ---
 
 <div class="row">
-  <div class="page-content {% unless page.sidebar == false or site.post_asides == empty and site.default_asides == empty %}col-md-9{% else %}col-md-12{% endunless %}">
+  <div class="page-content col-lg-offset-3 col-lg-6 col-md-offset-2 col-md-8 col-sm-12 col-xs-12">
     <article class="hentry" role="article">
       {% include article.html %}
       <footer>
@@ -36,14 +37,4 @@ single: true
       </section>
     {% endif %}
   </div>
-
-  {% unless page.sidebar == false or site.post_asides == empty and site.default_asides == empty %}
-  <aside class="sidebar col-md-3">
-    {% if site.post_asides.size %}
-      {% include_array post_asides %}
-    {% else %}
-      {% include_array default_asides %}
-    {% endif %}
-  </aside>
-  {% endunless %}
 </div>
