@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[PES OpenSource | Opening Doors to Knowledge]]></title>
+  <link href="http://pesos.github.io/atom.xml" rel="self"/>
+  <link href="http://pesos.github.io/"/>
+  <updated>2014-12-09T17:53:30+00:00</updated>
+  <id>http://pesos.github.io/</id>
+  <author>
+    <name><![CDATA[PES OpenSource]]></name>
+    <email><![CDATA[pesos@pes.edu]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[PyCampus Day 2]]></title>
+    <link href="http://pesos.github.io/blog/2014/11/10/pycampus-day-2/"/>
+    <updated>2014-11-10T00:00:00+00:00</updated>
+    <id>http://pesos.github.io/blog/2014/11/10/pycampus-day-2</id>
+    <content type="html"><![CDATA[<p><strong>PyCampus</strong> is an annual event series organized in PES University by PES OpenSource, in order to introduce engineering students to programming and Python. The events are mostly hands on, with exercises intended to both spark an interest in programming as well as introduce concepts that are unique to Python.</p>
+
+<p>This is a report of Day 2 a session concentrating on Web Programming in Python with Django. The event was held on 2nd November 2014 at PES University.</p>
+
+<!-- more -->
+
+
+
+
+<br/>
+
+
+<h3>About the speakers</h3>
+
+<p></br></p>
+
+<p>The speakers for the event were <em>Haris Ibrahim</em> and <em>Kracekumar Ramaraju</em> from <a href="http://bangalore.python.org.in/">BangPypers</a>. Haris works in <a href="http://eventifier.com/about/">Eventifier</a> and previously worked for HasGeek. Kracekumar is a co-host of the Bangalore Python User group and currently works at <a href="http://recruiterbox.com">RecruiterBox</a> and is also the general secretary of PSSI.</p>
+
+<p><em>The theme</em> was programming for the web with Python using Django. A <a href="https://docs.google.com/document/d/1NhSyFZVCTyOQm3oaRKb9vJCXKjcUqIq6Ij4Uw0Pz6c4/pub">checklist</a> for the event was shared with the participants before the event, so that their systems would be setup and ready to go. The event began with an introduction of different layers involved when a browser makes a request to a web server. Then, the speakers explained how Django fits into this picture.</p>
+
+<p>There was a brief discussion of Django philosophy, its best practices, folder organization and also alternatives to Django.</p>
+
+<p>Soon enough, obligatory “Hello World” was done with(albeit with some trouble getting everyone onto the same page &ndash; pun intended!). The speakers introduced different types of web requests, an introduction to NoSQL(Redis) data stores and basic CRUD operations. This concluded the morning session.</p>
+
+<p>In the afternoon session, the participants got to work on a Tweet corpus to master their ORM and CRUD skills. The session ended with a visualization of the tweets using <a href="http://www.chartjs.org/">chartjs</a>.</p>
+
+<p>Here are some <strong>resources</strong> shared by the speakers &ndash;</p>
+
+<p><strong>Django:</strong></p>
+
+<ul>
+<li><a href="http://www.tangowithdjango.com/book/">http://www.tangowithdjango.com/book/</a></li>
+<li><a href="http://effectivedjango.com/tutorial/">http://effectivedjango.com/tutorial/</a></li>
+<li><a href="http://gettingstartedwithdjango.com/">http://gettingstartedwithdjango.com/</a></li>
+</ul>
+
+
+<p><strong>Redis:</strong></p>
+
+<ul>
+<li><a href="https://www.digitalocean.com/community/tutorials/how-to-install-and-use-redis">https://www.digitalocean.com/community/tutorials/how-to-install-and-use-redis</a></li>
+<li><a href="http://redis.io/topics/data-types-intro">http://redis.io/topics/data-types-intro</a></li>
+<li><a href="http://try.redis.io/">http://try.redis.io/</a></li>
+<li><a href="http://redis.io/topics/twitter-clone">http://redis.io/topics/twitter-clone</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Python for all 2014]]></title>
+    <link href="http://pesos.github.io/blog/2014/10/21/python-for-all-2014/"/>
+    <updated>2014-10-21T09:28:18+00:00</updated>
+    <id>http://pesos.github.io/blog/2014/10/21/python-for-all-2014</id>
+    <content type="html"><![CDATA[<p><strong>PyCampus</strong> is an annual event series organized in PES University by PES OpenSource, in order to introduce engineering students to programming and Python. The events are mostly hands on, with exercises intended to both spark an interest in programming as well as introduce concepts that are unique to Python.</p>
+
+<p>This is a report of <strong>Python for all</strong>, a session for beginners that was held in campus on 19 October 2014. <br/><br/></p>
+
+<!-- more -->
+
+
+<h3><strong>PyCampus 2014, Beginners session</strong></h3>
+
+<br/>
+
+
+<p>The day got off to a memorable start with a video message from Python&rsquo;s creator Guido van Rossum (or as he is reverently called by the Python community, Benevolent Dictator For Life &ndash; BDFL) to the participants. The BDFL spoke about the power of Python programming language, and its application across companies and domains. Not everyone gets to listen to the creator of a programming language before they even begin programming in that language!</p>
+
+<br/>
+
+
+<div class="youtube">
+    <iframe width="440" height="440" src="http://www.youtube.com/embed/Nxc5wbuEbBE" frameborder="0">
+    </iframe>
+</div>
+
+
+<br/>
+
+
+<p>The speakers for the event were <em>Nitin Kumar</em> and <em>Shailendra Mahapatra</em> from BangPypers &ndash; a Bangalore based python users group. Nitin is a  NetOps Engineer at Juniper Networks and has recently released <a href="http://junos-pyez.readthedocs.org/en/1.0.0/index.html">Junos PyEZ</a>. Shailendra works at McAfee as a Technical Lead.</p>
+
+<p>The session started with the speakers explaining Python&rsquo;s place in today&rsquo;s world to participants, most of whom have had some experience coding in the traditional languages of C, C++ or Java. They also mentioned about Python&rsquo;s usage, scalability and reliability at companies like Dropbox, Google etc.</p>
+
+<p>From here on in, the session was entirely hands-on. The participants were given a tour of Python. The first session was on Lists, input/output, functions and dictionaries. The second session began post lunch with classes and exception handling being the key topics.</p>
+
+<p>Throughout the event, participants were given programming challenges to solve to test and apply their newly gained Python knowledge.</p>
+
+<p>The session ended with a quick tour of the Python standard library modules like urllib, re, sys, os etc.</p>
+
+<p>We at PES OpenSource would like to thank Nitin and Shailendra for taking time of their busy schedule to spend a day with us. It was a really memorable experience for everyone here at PESOS.</p>
+
+<p>The PES Open Source Community was initiated on 16th july 2011 by the students and alumni of PES Institute of Technology, Bangalore, India. It is driven by the spirit and philosophy of open source and aims at popularizing its cause and at the same time empower the student community’s knowledge of cutting-edge technology by coming up with new projects and hacks.</p>
+
+<p>Follow discussions about this event <a href="https://groups.google.com/forum/#!topic/pes-opensource/xxXwqpZGIZo">in our mailing list</a>.</p>
+]]></content>
+  </entry>
+  
+</feed>
