@@ -1,0 +1,41 @@
+@import url('http://fonts.googleapis.com/css?family=Droid+Sans+Mono:400,900');
+
+body {
+    font-family: "Droid Sans Mono";
+    background-image: url('../img/bg.png');
+    font-size: 13px;
+}
+
+.row {
+    color: #dedede;
+    /*border-radius: 10px;*/
+    padding: 2px;
+    margin: 1.1px;
+}
+
+.row footer {
+    font-weight: 900;
+    font-size: 14px;
+    color: #ffff00;
+}
+
+.row content p {
+    display: inline;
+}
+
+.row content .time {
+    font-size: 12px;
+    color: #00ffff;
+}
+
+.row.chat {
+    background-image: url('../img/chat.png');
+}
+
+.row.bcast {
+    background-image: url('../img/bcast.png');
+}
+
+.row.inout {
+    background-image: url('../img/inout.png');
+}
