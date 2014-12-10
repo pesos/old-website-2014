@@ -1,5 +1,5 @@
 ---
-layout: octoflatpost
+layout: post
 title: "Python for all 2014"
 date: 2014-10-21 14:58:18 +0530
 comments: true
