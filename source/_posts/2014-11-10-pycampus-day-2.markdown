@@ -1,5 +1,5 @@
 ---
-layout: octoflatpost
+layout: post
 title: PyCampus Day 2
 date: "2014-11-10 15-42-12 +0530"
 comments: true
